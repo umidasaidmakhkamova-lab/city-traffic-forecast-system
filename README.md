@@ -30,3 +30,5 @@
 
 - [Activity: кептеліс болжамын құру](docs/analysis/activity-forecast-congestion.png)
 - [Sequence: кептеліс болжамын құру](docs/analysis/sequence-forecast-congestion.png)
+
+Диаграммалар docs/analysis/ папкасында орналасқан.
