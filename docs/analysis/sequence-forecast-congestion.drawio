@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Sequence" id="sequence1">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="lActor" value="Аналитик" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=60;" vertex="1" parent="1">
+          <mxGeometry x="55" y="20" width="30" height="680" as="geometry"/>
+        </mxCell>
+        <mxCell id="lWeb" value="Web-интерфейс" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="120" height="680" as="geometry"/>
+        </mxCell>
+        <mxCell id="lSvc" value="Forecast Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="20" width="120" height="680" as="geometry"/>
+        </mxCell>
+        <mxCell id="lDb" value="Деректер базасы" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="790" y="20" width="120" height="680" as="geometry"/>
+        </mxCell>
+        <mxCell id="lMl" value="ML-модель" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="20" width="120" height="680" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="fragAlt" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;width=50;height=25;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="980" height="310" as="geometry"/>
+        </mxCell>
+        <mxCell id="guide1" value="[болжам сәтті]" style="text;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="285" y="370" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="divider" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="535" as="sourcePoint"/>
+            <mxPoint x="1200" y="535" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guide2" value="[қате / деректер жеткіліксіз]" style="text;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="285" y="540" width="220" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="m1" value="Аймақ пен кезеңді таңдау" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="70" y="120" as="sourcePoint"/><mxPoint x="330" y="120" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="m2" value="Болжам сұрауын жіберу(аймақ, кезең)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="330" y="160" as="sourcePoint"/><mxPoint x="590" y="160" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="m3" value="Тарихи деректерді сұрау" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="590" y="200" as="sourcePoint"/><mxPoint x="850" y="200" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="m4" value="Тарихи деректер" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="850" y="240" as="sourcePoint"/><mxPoint x="590" y="240" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="m5" value="Болжам есептеу(деректер)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="590" y="280" as="sourcePoint"/><mxPoint x="1110" y="280" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="m6" value="Болжам нәтижесі" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="1110" y="320" as="sourcePoint"/><mxPoint x="590" y="320" as="targetPoint"/></mxGeometry>
+        </mxCell>
+
+        <mxCell id="m7" value="Болжамды сақтау" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="590" y="415" as="sourcePoint"/><mxPoint x="850" y="415" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="m8" value="Сақтау расталды" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="850" y="450" as="sourcePoint"/><mxPoint x="590" y="450" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="m9" value="Болжам деректері" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="590" y="485" as="sourcePoint"/><mxPoint x="330" y="485" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="m10" value="Кептеліс картасын көрсету" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="330" y="520" as="sourcePoint"/><mxPoint x="70" y="520" as="targetPoint"/></mxGeometry>
+        </mxCell>
+
+        <mxCell id="m11" value="Қате туралы хабарлама" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="590" y="595" as="sourcePoint"/><mxPoint x="330" y="595" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="m12" value="Қатені көрсету" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="330" y="635" as="sourcePoint"/><mxPoint x="70" y="635" as="targetPoint"/></mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
