@@ -30,5 +30,10 @@
 
 - [Activity: кептеліс болжамын құру](docs/analysis/activity-forecast-congestion.png)
 - [Sequence: кептеліс болжамын құру](docs/analysis/sequence-forecast-congestion.png)
+- [DFD: контекстік диаграмма](docs/analysis/dfd-context.png)
+- [DFD: 0-деңгей](docs/analysis/dfd-level0.png)
+- [DFD: 1-деңгей (2.0 Кептеліс болжамын құру)](docs/analysis/dfd-level1.png)
+- [ERD](docs/database/erd.png)
+- [SQL схема және тестілік деректер](docs/database/schema.sql)
 
 Диаграммалар docs/analysis/ папкасында орналасқан.
